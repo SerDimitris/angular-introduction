@@ -4,4 +4,4 @@ export interface Person {
     age: number;
     email: string;
     address: string;
-  }
+}
