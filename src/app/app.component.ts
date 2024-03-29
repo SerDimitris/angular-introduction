@@ -5,8 +5,15 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'angular-introduction';
+  name = 'Dimitris';
+
+  person = {
+    givenName: 'Dimitris',
+    surName: 'Serafeimidis',
+    age: 37,
+    email: 'dimserafeim@aueb.gr',
+  };
 }
